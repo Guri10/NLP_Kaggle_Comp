@@ -14,3 +14,7 @@ The dataset includes the following files:
 
 #### Submission 1 Score
 ![Submission 1 Score](Submission_1_score.png "Score for Submission 1")
+Got a descent score of 0.79 with basic preprocessing and Logisticregression() model
+
+![Submission 2 Score](Submission_2_score.png "Score for Submission 2")
+Went ahead with text normalization techniques like -- converting text to lowercase, removing numbers & punctuations, tokenizing words. Not a significant improvement as we increase the score from 0.79 to 0.80
