@@ -18,3 +18,9 @@ Got a descent score of 0.79 with basic preprocessing and Logisticregression() mo
 
 ![Submission 2 Score](Submission_2_score.png "Score for Submission 2")
 Went ahead with text normalization techniques like -- converting text to lowercase, removing numbers & punctuations, tokenizing words. Not a significant improvement as we increase the score from 0.79 to 0.80
+
+![Submission 3 Score](Submission_3_score.png "Score for Submission 3")
+Removing stopwords did not particularly improve the score. ![Confusion matrix](Confusion_matrix_train.png "Confusion Matrix for training") Confusion matrix for training data and the F1 score suggests that the model might have overtrained and therefore not able to perform well on unseen data. 
+
+Will divide the data into train and validation set. 
+ PS. - I KNOW I SHOULD HAVE DONE THIS EARLIER.
