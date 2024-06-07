@@ -28,3 +28,5 @@ Will divide the data into train and validation set.
 
 Tried various models and found best possible parameters. Got a score of `0.79803`. Couldn't beat the score of `0.8` which I got with just basic data cleaning and using default `Logistic Regression` model. 
 ![latest Submission Score](latest_submission.png "Score for Latest Submission")
+
+Tried using LSTMs as well but lacking memory resources right now, will soon figure out a way to run the LSTM model faster for better `model optimization`.
